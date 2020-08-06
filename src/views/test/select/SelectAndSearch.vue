@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-select v-model="value" filterable placeholder="请选择">
+    <el-select v-model="value" filterable placeholder="请选择内容">
       <el-option
         v-for="item in options"
         :key="item.value"
