@@ -119,9 +119,9 @@ export default {
   },
   methods: {
     // 子组件操作事件触发父组件响应
-    handleButton (childVal) {
+    handleButton (methods, row, index) {
       console.log('点击内容或者按钮的回调')
-      console.log(childVal)
+      console.log(methods, row, index)
     },
     // 子组件排序事件触发父组件响应
     handleSortChange () {

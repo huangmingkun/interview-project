@@ -26,7 +26,7 @@
       </el-table-column>
       <!-----------------------------------------------普通table内容----------------------------------------------->
       <el-table-column
-        v-for="(item,index) in showTableLabel"
+        v-for="(item,index) in filterTableLabel"
         :width="item.width ? item.width : ''"
         :key="index"
         :align="item.align"
@@ -42,7 +42,7 @@
           <span
             v-else-if="item.clickContent"
             :class="{'text-blue' : item.clickContent}"
-            @click="handleButton(item.methods,scope.row,scope.row)">
+            @click="handleButton(item.methods, scope.row, index)">
             {{scope.row[item.param]}}
           </span>
           <!-----------------------------------------------普通文本内容----------------------------------------------->
@@ -55,7 +55,7 @@
             :key="index"
             :type="btnItem.type"
             :icon="btnItem.icon"
-            @click="handleButton(btnItem.methods,scope.row,scope.row)">
+            @click="handleButton(btnItem.methods, scope.row, index)">
             {{btnItem.label}}
           </el-button>
           <!-----------------------------------------------下拉按钮操作事件----------------------------------------------->
@@ -128,7 +128,7 @@ export default {
     } // table 下拉按钮事件
   },
   computed: {
-    showTableLabel () {
+    filterTableLabel () {
       return this.tableLabel.filter((item) => {
         return item.isShow
       })
@@ -146,7 +146,7 @@ export default {
     },
     // 按钮事件
     handleButton (methods, row, index) {
-      // console.log(methods, row, index)
+      console.log(111111111, methods, row, index)
       this.$emit('handleButton', {'methods': methods, 'row': row, 'index': index})
     },
     // 排序

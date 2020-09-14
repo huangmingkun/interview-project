@@ -2,159 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc261ca2-155f-48a2-b30f-2e825b44d443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tencent-interview-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/deploy/deploy-directory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/deploy/github-setting1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/deploy/github-setting2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/deploy/github-upload-success.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/deploy/new-repository-step1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/deploy/new-repository-step2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/layout/layout-effect.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/layout/second-directory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/start/first-directory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/start/first-effect.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/start/project-structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/support/weixin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/support/zhifubao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/func-chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/func-drag.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/func-edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/func-form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/func-permission.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/func-table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/layout-demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/layout-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/layout-init.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/llplatform-demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/login-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/login-login2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/login-register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/permission-process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/request-demo-error-data.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/request-demo-error-res.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/request-demo-success.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/start-demo-element.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/start-demo.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-any.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-change-color1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-change-color2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-change.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-skin-demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/img/vue-llplatform/theme-skin-demo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/js/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/hero2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/msapplication-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/document/deploy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/document/home.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/document/language.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/document/layout.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/document/start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/document/theme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/en/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/common/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about/my-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/i18n/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ThemePicker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/ElementForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/ElementTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/table/CommonTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/table/CommonTableOld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/table/TableEdit-computed-error.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/table/TableEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/element/table/TableEditOld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/myComponents/mySelect/MySelect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/staticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error/AppError403.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error/AppError404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error/AppError500.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayoutEmpty.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayoutFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayoutHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayoutMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayoutSidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/TheLayoutSubSidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login/AppLogin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login/AppLogin2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login/AppRegister.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login/AppRegister2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageAbout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageCharts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageDrag.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageHome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageHomeOld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/forms/PageFormsBase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/forms/PageFormsEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/user/PageUserPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/user/PageUserPermissions.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/test/select/SelectAndSearch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/element/table/CommonTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/element/table/CommonTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/PageHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/PageHome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test-vue" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -311,6 +163,12 @@
       <workItem from="1596197297974" duration="28000" />
       <workItem from="1596678045187" duration="1937000" />
       <workItem from="1596680416568" duration="67000" />
+      <workItem from="1596680749137" duration="773000" />
+      <workItem from="1596681589116" duration="1711000" />
+      <workItem from="1596695191463" duration="1785000" />
+      <workItem from="1596701546971" duration="1198000" />
+      <workItem from="1599536891533" duration="7610000" />
+      <workItem from="1600045598749" duration="2943000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1596678334151</created>
@@ -333,41 +191,65 @@
       <option name="project" value="LOCAL" />
       <updated>1596678918179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第一次提交">
+      <created>1596680842771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596680842771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第一次提交">
+      <created>1596681886013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596681886013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="第一次提交" />
     <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#ESLint" timestamp="1596680482526">
+    <state x="552" y="179" key="#ESLint" timestamp="1599544651902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1596680482526" />
-    <state x="301" y="113" width="1372" height="814" key="CommitChangelistDialog2" timestamp="1596678917602">
+    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1599544651902" />
+    <state x="301" y="113" width="1372" height="814" key="CommitChangelistDialog2" timestamp="1596681885338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="301" y="113" width="1372" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596678917602" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594870910257">
+    <state x="301" y="113" width="1372" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596681885338" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599553952331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594870910257" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599553952331" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1596678070165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596678070165" />
-    <state x="336" y="253" width="1350" height="533" key="Vcs.Push.Dialog.v2" timestamp="1596679881931">
+    <state x="336" y="253" width="1350" height="533" key="Vcs.Push.Dialog.v2" timestamp="1596682010093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="336" y="253" width="1350" height="533" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596679881931" />
-    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1591061597163">
+    <state x="336" y="253" width="1350" height="533" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596682010093" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599543950535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591061597163" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599543950535" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1599545338714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599545338714" />
+    <state x="603" y="311" key="git4idea.merge.GitPullDialog" timestamp="1596680924112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="603" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596680924112" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
