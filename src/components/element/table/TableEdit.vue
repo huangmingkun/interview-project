@@ -2,7 +2,7 @@
   <div class="table-edit-container">
     <!--table编辑图标-->
     <i class="el-icon-setting cursor_pointer table-edit"
-       :class="{'all-selected': checkLists.length !== checkedLength}"
+       :class="{'all-selected': mapTableLabel.length !== checkedLength}"
        title="编辑"
        @click="editMethod">
     </i>
@@ -11,7 +11,7 @@
       <el-checkbox :indeterminate="isIndeterminate" v-model="checkAll" @change="handleCheckAllChange">全选</el-checkbox>
       <div style="margin: 15px 0;"></div>
       <el-checkbox-group v-model="checkedDatas" @change="handleCheckedCitiesChange">
-        <el-checkbox v-for="item in checkLists" :label="item" :key="item">{{item}}</el-checkbox>
+        <el-checkbox v-for="item in mapTableLabel" :label="item" :key="item">{{item}}</el-checkbox>
       </el-checkbox-group>
       <div slot="footer" class="dialog-footer">
         <!--<el-button @click="tableEditShow = false">取 消</el-button>-->
@@ -42,7 +42,7 @@ export default {
   },
   computed: {
     // 待编辑的字段总数（表头label总数）
-    checkLists: function () {
+    mapTableLabel: function () {
       let that = this
       let value = []
       console.log('进来了checkLists计算')
@@ -85,7 +85,7 @@ export default {
     },
     // 全选/全不选操作
     handleCheckAllChange (val) {
-      this.checkedDatas = val ? this.checkLists : []
+      this.checkedDatas = val ? this.mapTableLabel : []
       // 通知父组件更新数据---this.checkedCities为已选的数据
       this.$emit('editValueChange', this.checkedDatas)
       this.isIndeterminate = false
@@ -96,8 +96,8 @@ export default {
       // 通知父组件更新数据--value为已选的数据
       that.$emit('editValueChange', value)
       let checkedCount = value.length
-      this.checkAll = checkedCount === this.checkLists.length
-      this.isIndeterminate = checkedCount > 0 && checkedCount < this.checkLists.length
+      this.checkAll = checkedCount === this.mapTableLabel.length
+      this.isIndeterminate = checkedCount > 0 && checkedCount < this.mapTableLabel.length
     }
   }
 }

@@ -24,7 +24,6 @@
         show-overflow-tooltip
         width="55">
       </el-table-column>
-      <!-----------------------------------------------普通table内容----------------------------------------------->
       <el-table-column
         v-for="(item,index) in filterTableLabel"
         :width="item.width ? item.width : ''"
@@ -32,25 +31,25 @@
         :align="item.align"
         :label="item.label"
         :prop="item.param"
-        :sortable="item.sortable ? 'custom' : false">
+        :sortable="item.sortable || false">
         <template slot-scope="scope">
+          <!-----------------------------------------------普通文本内容----------------------------------------------->
+          <span v-if="!item.slotType">{{scope.row[item.param]}}</span>
           <!-----------------------------------------------动态内容封装----------------------------------------------->
-          <span v-if="item.render">
+          <span v-if="item.slotType === 'dynamicContent'">
             {{item.render(scope.row)}}
           </span>
           <!-----------------------------------------------内容点击事件封装----------------------------------------------->
           <span
-            v-else-if="item.clickContent"
-            :class="{'text-blue' : item.clickContent}"
+            v-if="item.slotType === 'clickContent'"
+            :class="{'text-blue' : item.slotType === 'clickContent'}"
             @click="handleButton(item.methods, scope.row, index)">
             {{scope.row[item.param]}}
           </span>
-          <!-----------------------------------------------普通文本内容----------------------------------------------->
-          <span v-else>{{scope.row[item.param]}}</span>
           <!-----------------------------------------------按钮操作事件----------------------------------------------->
           <el-button
             size="mini"
-            v-if="item.isTableBtn"
+            v-if="item.slotType === 'button'"
             v-for="(btnItem,index) in item.options"
             :key="index"
             :type="btnItem.type"
@@ -60,7 +59,7 @@
           </el-button>
           <!-----------------------------------------------下拉按钮操作事件----------------------------------------------->
           <el-dropdown
-            v-if="item.isTableDropDownBtn"
+            v-if="item.slotType === 'dropdownButton'"
             trigger="click"
             @command="handleCommand">
             <el-button type="primary" size="mini">
@@ -128,6 +127,7 @@ export default {
     } // table 下拉按钮事件
   },
   computed: {
+    // 根据数据的isShow字段进行显隐
     filterTableLabel () {
       return this.tableLabel.filter((item) => {
         return item.isShow
@@ -163,12 +163,12 @@ export default {
       this.$emit(command.func, command.uuid)
     },
     // 编辑数据后,更改数据的回显
-    editValueChange (checkedDatas) {
+    editValueChange (checkedTableLabel) {
       let that = this
       // checkedDatas为已选的数据
       that.tableLabel.forEach((item) => {
         // 遍历table数据，表头的标题包含在已选数据里面则做显示操作
-        if (checkedDatas.includes(item.label)) {
+        if (checkedTableLabel.includes(item.label)) {
           item.isShow = true
         } else {
           item.isShow = false
