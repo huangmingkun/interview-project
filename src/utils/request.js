@@ -38,19 +38,19 @@ import { MessageBox, Message } from 'element-ui'
  **/
 
 const axiosCustom = axios.create({
-  baseURL: process.env.BASE_URL,
-  withCredentials: true
+  baseURL: 'http://localhost:8081',
+  withCredentials: true // 跨域解决方案
 })
 
 axiosCustom.interceptors.request.use(function (config) {
-  config.headers.token = localStorage.getItem('user-token')
+  config.headers.token = localStorage.getItem('user-token') || '123456'
   return config
 })
 
 /* 普通请求 */
 export const request = (url, params = {}, config = {}, autoErrorRes = true, autoErrorData = true, autoCancel = true) => {
   if (autoCancel) {
-    config = Object.assign({ cancelToken: store.state.source.token }, config)
+    config = Object.assign({ cancelToken: store.state.login.source.token }, config)
   }
   const args = Object.assign({
     'method': 'post',

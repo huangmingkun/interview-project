@@ -76,7 +76,7 @@ export default {
     handleCheckedCitiesChange (value) {
       let that = this
       that.$emit('editValueChange', value)
-      console.log('单选改变的数据', value)
+      // console.log('单选改变的数据', value)
       let checkedCount = value.length
       this.checkAll = checkedCount === this.cities.length
       this.isIndeterminate = checkedCount > 0 && checkedCount < this.cities.length

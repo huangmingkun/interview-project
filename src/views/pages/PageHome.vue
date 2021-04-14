@@ -15,8 +15,7 @@
         @handleButton="handleButton"
         @handleSortChange="handleSortChange"
         @handleDropDown="handleDropDown"
-        @handleSelectionChange="handleSelectionChange"
-      >
+        @handleSelectionChange="handleSelectionChange">
       </common-table>
     </el-card>
   </div>
@@ -24,6 +23,7 @@
 
 <script>
 import CommonTable from '@/components/element/table/CommonTable'
+import { mapMutations } from 'vuex'
 
 export default {
   name: 'PageHome',
@@ -77,10 +77,10 @@ export default {
         { label: '办公邮箱', isShow: true, param: 'email', align: 'center', width: '200' },
         { label: '注册时间', isShow: true, param: 'registTime', align: 'center', sortable: 'custom' },
         { label: '审核状态',
+          isShow: true,
           param: 'status',
           align: 'center',
           sortable: true,
-          isShow: true,
           slotType: 'dynamicContent',
           render: (row) => {
             if (row.status === 0) {
@@ -123,32 +123,41 @@ export default {
       // 深度监听子组件改变tableLabel值
       handler: function (newValue, oldValue) {
         // 通过监听子组件编辑tableLabel，获取到最终tableLabel的值可以和后台交互，从而进行某列数据的显隐
-        console.log('子组件改变tableLabel的值', newValue)
+        // console.log('子组件改变tableLabel的值', newValue)
       },
       deep: true
     }
   },
   created () {
-    console.log('tableLabel1111111111111', this.tableLabel)
+    // console.log('tableLabel1111111111111', this.tableLabel)
   },
   methods: {
-    // 子组件按钮操作事件触发父组件响应
+    // 按钮操作事件---子组件触发父组件响应
     handleButton (methods, row, index) {
       console.log('点击内容或者按钮的回调')
-      console.log(methods, row, index)
+      // console.log(methods, row, index)
+      let user = {
+        name: '123',
+        permissions: [],
+        accessMenu: []
+      }
+      this.$store.commit('login/setUser', { user })
     },
-    // 子组件排序事件触发父组件响应
+    // 排序事件---子组件触发父组件响应
     handleSortChange () {
       console.log('排序回调')
     },
-    // 子组件选中和去选事件触发父组件响应
+    // 去选事件---子组件选中和触发父组件响应
     handleSelectionChange (val) {
       console.log(val)
     },
-    // 子组件下拉按钮事件触发父组件响应
+    // 下拉按钮事件---子组件触发父组件响应
     handleDropDown (val) {
       console.log(val)
-    }
+    },
+    ...mapMutations({
+      setUser: 'setUser'
+    })
   }
 }
 </script>

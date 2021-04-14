@@ -118,7 +118,10 @@ export default {
     }
   },
   computed: {
-    ...mapState(['user'])
+    // ...mapState(['user'])
+    ...mapState({
+      user: state => state.login.user
+    })
   },
   methods: {
     navOpenToggle () {

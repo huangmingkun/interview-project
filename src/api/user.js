@@ -14,6 +14,7 @@ export const requestRegister = params => {
 
 export const requestUserInfo = params => {
   return request('/api/user/info', params).then(res => {
+    console.log('请求菜单后返回', res)
     // 过滤菜单
     const filterUserMenu = function (menus, accessMenu) {
       menus.forEach(function (m) {
@@ -38,9 +39,10 @@ export const requestUserInfo = params => {
     staticRouter.forEach(r => {
       menus = r.menu ? menus.concat(r.children) : menus
     })
+    console.log('静态路由组装后的菜单', menus)
     filterUserMenu(menus, accessMenu)
     res.accessMenu = accessMenu
-    console.log('user数据', res)
+    // console.log('user数据', res)
     return res
   })
 }

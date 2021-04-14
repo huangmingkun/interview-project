@@ -146,7 +146,7 @@ export default {
     },
     // 按钮事件
     handleButton (methods, row, index) {
-      console.log(111111111, methods, row, index)
+      // console.log(111111111, methods, row, index)
       this.$emit('handleButton', {'methods': methods, 'row': row, 'index': index})
     },
     // 排序
@@ -159,7 +159,7 @@ export default {
     },
     // 下拉按钮事件
     handleCommand (command) {
-      console.log('command', command)
+      // console.log('command', command)
       this.$emit(command.func, command.uuid)
     },
     // 编辑数据后,更改数据的回显

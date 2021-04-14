@@ -99,6 +99,17 @@ Vue.use(ElementUI)
 // Vue.use(Transfer)
 // Vue.use(Upload)
 
+// console.log('环境变量process', process.env)
+// 根据环境变量决定是否引入mock
+if (process.env.NODE_ENV !== 'production') {
+  const Mock = require('./mock/index').default
+  Mock.mockData()
+}
+// 在线预览，引入mock数据
+// const Mock = require('./mock/index').default
+// // console.log('Mock888888888', Mock)
+// Mock.mockData()
+
 Vue.prototype.$log = window.console.log
 // Vue.prototype.$message = Message
 Vue.config.productionTip = false

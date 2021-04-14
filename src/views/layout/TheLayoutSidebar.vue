@@ -15,14 +15,13 @@
 
 <script>
 import TheLayoutSubSidebar from './TheLayoutSubSidebar'
-// import { mapState } from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   name: 'TheLayoutSidebar',
   props: ['openNav'],
   data () {
     return {
-      user: {}
     }
   },
   components: {
@@ -31,8 +30,10 @@ export default {
   computed: {
     selectMenu () {
       return this.$route.meta.menuPath || this.$route.path
-    }
-    // ...mapState(['user'])
+    },
+    ...mapState({
+      user: state => state.login.user
+    })
   },
   methods: {
     i18n: function (key) {
@@ -40,34 +41,6 @@ export default {
     }
   },
   created () {
-    this.user = {
-      accessMenu: [
-        {
-          icon: 'el-icon-s-home',
-          name: 'index',
-          path: '/index',
-          title: 'menu.home'
-        },
-        {
-          icon: 'el-icon-search',
-          name: 'table',
-          path: '/table',
-          title: 'menu.table'
-        },
-        {
-          icon: 'el-icon-tickets',
-          name: 'forms',
-          path: '/forms',
-          title: 'menu.form'
-        },
-        {
-          icon: 'el-icon-picture',
-          name: 'charts',
-          path: '/charts',
-          title: 'menu.chart'
-        }
-      ]
-    }
   },
   mounted () {
   }

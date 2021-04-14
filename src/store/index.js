@@ -1,43 +1,16 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { requestUserInfo } from '@/api/user'
+import login from './modules/login'
+import home from './modules/home'
+import createLogger from 'vuex/dist/logger' // 控制台输出当前变化的某个状态
 
 Vue.use(Vuex)
-
+const debug = process.env.NODE_ENV !== 'production' // 生产或开发环境打包
 export default new Vuex.Store({
-  state: {
-    user: {
-      name: '',
-      permissions: [],
-      accessMenu: []
-    },
-    source: {
-      token: null,
-      cancel: null
-    }
+  modules: {
+    login,
+    home
   },
-  mutations: {
-    setUser (state, { user }) {
-      console.log(1111111111)
-      state.user.name = user.name
-      state.user.permissions = user.permissions
-      state.user.accessMenu = user.accessMenu
-    },
-    deleteUser (state) {
-      state.user.name = ''
-      state.user.permissions = []
-      state.user.accessMenu = []
-    },
-    updateSource (state, { source }) {
-      state.source = source
-    }
-  },
-  actions: {
-    requestUserInfo ({ commit }) {
-      return requestUserInfo().then(user => {
-        console.log(1111111111)
-        commit('setUser', { user })
-      })
-    }
-  }
+  strict: debug, // 按照官网建议，改变state的状态只能通过setter
+  plugins: debug ? [createLogger()] : []
 })

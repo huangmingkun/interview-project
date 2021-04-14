@@ -45,7 +45,7 @@ export default {
     mapTableLabel: function () {
       let that = this
       let value = []
-      console.log('进来了checkLists计算')
+      // console.log('进来了checkLists计算')
       that.tableLabel.forEach((item) => {
         value.push(item.label)
         // 不能在计算属性里面设置'已选字段',只能在打开编辑框前初始化'已选数据'
@@ -53,13 +53,14 @@ export default {
         //   that.checkedDatas.push(item.label)
         // }
       })
+      // console.log('that.checkedDatas', that.checkedDatas)
       return value
     },
-    // 计算已选择表头label的列表长度（不可直接计算checkedDatas--原因不明:可见TableEdit-computed-error页面代码）
+    // 计算已选择表头label的列表长度（不可直接计算mapTableLabel--原因不明:可见TableEdit-computed-error页面代码）
     checkedLength () {
       let that = this
       let selectedArr = []
-      console.log('进来了checkedLength计算')
+      // console.log('进来了checkedLength计算')
       // 遍历原始列表数据,显示已选的数据
       that.tableLabel.forEach((item) => {
         if (item.isShow) {
@@ -83,14 +84,14 @@ export default {
         }
       })
     },
-    // 全选/全不选操作
+    // 全选/全去选操作
     handleCheckAllChange (val) {
       this.checkedDatas = val ? this.mapTableLabel : []
       // 通知父组件更新数据---this.checkedCities为已选的数据
       this.$emit('editValueChange', this.checkedDatas)
       this.isIndeterminate = false
     },
-    // 单选/单不选操作
+    // 单选/单去选操作
     handleCheckedCitiesChange (value) {
       let that = this
       // 通知父组件更新数据--value为已选的数据
