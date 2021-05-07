@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc261ca2-155f-48a2-b30f-2e825b44d443" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="bc261ca2-155f-48a2-b30f-2e825b44d443" name="Default Changelist" comment="新增功能">
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/element/table/CommonTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/element/table/CommonTable.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/PageHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/PageHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/element/ElementForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/element/ElementForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,9 +36,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test-vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -50,7 +53,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Users\hmk\Desktop\tencent-interview-project\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="ts.external.directory.path" value="D:\webStorm\WebStorm 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\software\webstorm\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,14 +62,24 @@
       <recent name="D:\Users\hmk\Desktop\vue-project\interview-project\docs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\self-project\self-project\vue-project\interview\interview-project" />
+      <recent name="D:\self-project\self-project\vue-project\interview\interview-project\src\store\modules" />
+      <recent name="D:\self-project\self-project\vue-project\interview\interview-project\src" />
       <recent name="D:\self-project\self-project\vue-project\interview\interview-project\src\components\element\table" />
       <recent name="D:\self-project\self-project\vue-project\interview\interview-project\src\views\pages" />
-      <recent name="D:\Users\hmk\Desktop\vue-project\interview-project\src\views\pages" />
-      <recent name="D:\Users\hmk\Desktop\vue-project\interview-project\docs\.vuepress\public\assets\img\deploy" />
-      <recent name="D:\Users\hmk\Desktop\vue-project\interview-project\docs\.vuepress\public\assets\img\layout" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:dev">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="analyz" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="analyz" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,8 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.analyz" />
+        <item itemvalue="npm.docs:dev" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +182,31 @@
       <workItem from="1596695191463" duration="1785000" />
       <workItem from="1596701546971" duration="1198000" />
       <workItem from="1599536891533" duration="7610000" />
-      <workItem from="1600045598749" duration="2943000" />
+      <workItem from="1600045598749" duration="4089000" />
+      <workItem from="1600220117534" duration="3447000" />
+      <workItem from="1600242167096" duration="615000" />
+      <workItem from="1603965222434" duration="3450000" />
+      <workItem from="1604372548703" duration="39000" />
+      <workItem from="1608625094069" duration="15418000" />
+      <workItem from="1608714944156" duration="7633000" />
+      <workItem from="1608781959738" duration="730000" />
+      <workItem from="1608788964137" duration="17953000" />
+      <workItem from="1609118272134" duration="5817000" />
+      <workItem from="1609773701382" duration="2038000" />
+      <workItem from="1609810113312" duration="8243000" />
+      <workItem from="1609985025464" duration="2038000" />
+      <workItem from="1610418969368" duration="48000" />
+      <workItem from="1611300262196" duration="5154000" />
+      <workItem from="1612665299144" duration="2287000" />
+      <workItem from="1612677261999" duration="3805000" />
+      <workItem from="1614329174035" duration="6060000" />
+      <workItem from="1618379987349" duration="5852000" />
+      <workItem from="1618393584995" duration="9000" />
+      <workItem from="1618803300428" duration="6775000" />
+      <workItem from="1618903622129" duration="388000" />
+      <workItem from="1618904667794" duration="5165000" />
+      <workItem from="1619494011354" duration="13000" />
+      <workItem from="1620354489387" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1596678334151</created>
@@ -205,7 +243,28 @@
       <option name="project" value="LOCAL" />
       <updated>1596681886013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修复bug">
+      <created>1600048720217</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600048720217</updated>
+    </task>
+    <task id="LOCAL-00007" summary="优化table封装组件">
+      <created>1608630864156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608630864156</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增功能">
+      <created>1618380043952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618380043952</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,41 +274,60 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="修复bug" />
+    <MESSAGE value="优化table封装组件" />
+    <MESSAGE value="新增功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#ESLint" timestamp="1599544651902">
+    <state x="335" y="111" width="1054" height="818" key="CommitChangelistDialog2" timestamp="1618380173137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1599544651902" />
-    <state x="301" y="113" width="1372" height="814" key="CommitChangelistDialog2" timestamp="1596681885338">
+    <state x="335" y="111" width="1054" height="818" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618380173137" />
+    <state x="184" y="92" width="1536" height="858" key="DiffContextDialog" timestamp="1619491145147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="301" y="113" width="1372" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596681885338" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599553952331">
+    <state x="184" y="92" width="1536" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619491145147" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611309223591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599553952331" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1596678070165">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611309223591" />
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1619493998107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596678070165" />
-    <state x="336" y="253" width="1350" height="533" key="Vcs.Push.Dialog.v2" timestamp="1596682010093">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619493998107" />
+    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1619493998105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="336" y="253" width="1350" height="533" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596682010093" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599543950535">
+    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619493998105" />
+    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1619493998104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599543950535" />
-    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1599545338714">
+    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619493998104" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1619493998106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599545338714" />
-    <state x="603" y="311" key="git4idea.merge.GitPullDialog" timestamp="1596680924112">
+    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619493998106" />
+    <state x="687" y="231" key="RollbackChangesDialog" timestamp="1618381749485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="603" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596680924112" />
+    <state x="687" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618381749485" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618380235815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618380235815" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1619492203807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619492203807" />
+    <state x="603" y="311" key="git4idea.merge.GitPullDialog" timestamp="1618380207251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="603" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618380207251" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618386261021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618386261021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

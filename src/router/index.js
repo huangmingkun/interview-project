@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import staticRouter from './staticRouter' // 模块化--静态页面路由
-import { whiteList } from './whiteList'
-import store from '@/store/index'
+// import { whiteList } from './whiteList'
+// import store from '@/store/index'
 
 Vue.use(Router)
 const router = new Router({
